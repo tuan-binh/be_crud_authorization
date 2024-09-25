@@ -21,6 +21,6 @@ spring:
 # jwt
 jwt:
   secret:
-    key: rikkei_academy
+    key: rikkeiacademydfrtgsyuhidj21ue120938219321ndsad
   expired:
     access: 864000
