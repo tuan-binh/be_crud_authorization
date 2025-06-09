@@ -12,7 +12,8 @@ import java.util.Set;
 @Getter
 @Setter
 @Builder
-public class Users {
+public class Users
+{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -23,7 +24,7 @@ public class Users {
     private String address;
     private Boolean status;
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(
             name = "user_role",
             joinColumns = @JoinColumn(name = "user_id"),

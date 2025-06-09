@@ -2,7 +2,7 @@ spring:
   application:
     name: crud_security
   datasource:
-    url: jdbc:mysql://localhost:3306/crud_security?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3307/crud_security?createDatabaseIfNotExist=true
     username: root
     password: 123456
   jooq:
